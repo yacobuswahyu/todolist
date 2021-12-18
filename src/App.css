@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container-fluid {
+  background: #000a23;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  background: #00254a;
+  width: 500px;
+  min-height: 200px;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 2px 2px 28px rgb(0, 217, 255);
+}
+.form-input {
+  width: 385px;
+}
+.btn-warning {
+  width: 50px;
+  height: 28px;
+  box-shadow: 1px 1px 12px rgb(255, 238, 0);
+}
